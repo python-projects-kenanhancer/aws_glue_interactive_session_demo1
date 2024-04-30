@@ -1,0 +1,10 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "CovidLakeStack"
+resolve_s3 = true
+s3_prefix = "CovidLakeStack"
+region = "eu-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM CAPABILITY_NAMED_IAM CAPABILITY_AUTO_EXPAND"
+parameter_overrides = "MyParameter=\"\""
+image_repositories = []
